@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nethmi Umayanga | Portfolio</title>
+  <link rel="stylesheet" href="css/styles.css" />
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+</head>
+<body>
+  <!-- ===== HEADER ===== -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="logo">Nethmi Umayanga</h1>
+      <nav class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#certifications">Certification</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== MAIN CONTENT ===== -->
+  <main>
+   <!-- HOME / HERO SECTION -->
+<section id="home" class="hero-hero">
+  <div class="container hero-inner">
+    <!-- LEFT: text content -->
+    <div class="hero-left">
+      <a class="resume-btn" href="assets/resume/Nethmi_Umayanga_CV.docx" download>
+        ⤓ DOWNLOAD MY RESUME
+      </a>
+
+      <p class="subtitle">Software Engineering Student</p>
+
+      <h1 class="hero-name">
+        Nethmi<br />
+        Umayanga
+      </h1>
+
+      <p class="hero-desc">
+        Creative developer building web apps and tools — currently pursuing a Top-up degree in Business
+        Information Systems. I enjoy clean UI, readable code and practical solutions.
+      </p>
+
+      <p>
+        <a class="btn" href="#projects">View My Projects</a>
+      </p>
+    </div>
+
+    <!-- RIGHT: image -->
+    <div class="hero-right" aria-hidden="true">
+      <img src="assets/images/bg.png" alt="Nethmi portrait" />
+    </div>
+  </div>
+</section>
+
+    <!-- ===== ABOUT SECTION ===== -->
+<section id="about" class="about-section">
+  <div class="container about-inner">
+    <header class="about-head">
+      <h2 class="about-title">ABOUT ME</h2>
+      <div class="about-underline" aria-hidden="true"></div>
+       <!-- meta row: icon + main subtitle + small description -->
+  <div class="about-meta">
+    <!-- rounded icon -->
+    <div class="about-icon" aria-hidden="true">
+      <!-- simple user SVG, replace with any icon you like -->
+      <svg viewBox="0 0 24 24" width="28" height="28" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="12" cy="8" r="3" stroke="currentColor" stroke-width="1.6"/>
+        <path d="M4 20c0-4 4-6 8-6s8 2 8 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+      </svg>
+    </div>
+
+    <!-- text block next to icon -->
+    <div class="about-meta-text">
+      <h3 class="about-subtitle">Creative Developer &amp; AI Enthusiast</h3>
+      <p class="about-subdesc">Building the future of digital experiences</p>
+    </div>
+  </div>
+
+  <p class="about-lead">
+    I'm a passionate <strong>Software Engineering student</strong> blending clean UI design with
+    practical, maintainable code. Currently pursuing a Top-up in Business Information Systems,
+    I build web applications and desktop/mobile tools that solve real problems.
+  </p>
+
+    
+
+      <!-- feature cards grid -->
+      <div class="features-grid" aria-hidden="false">
+        <!-- Row 1 -->
+        <article class="feature-card">
+          <div class="icon-wrap">
+            <!-- simple code SVG icon -->
+            <svg viewBox="0 0 24 24" class="feature-icon" aria-hidden="true">
+              <path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6z"></path>
+            </svg>
+          </div>
+          <h4>Full-Stack Development</h4>
+          <p>Building scalable apps with PHP, Java, and JavaScript frameworks.</p>
+        </article>
+
+        <article class="feature-card">
+          <div class="icon-wrap">
+            <svg viewBox="0 0 24 24" class="feature-icon" aria-hidden="true">
+              <path d="M12 2l3 7h7l-5.5 4 2 7L12 16l-6.5 4 2-7L2 9h7z"></path>
+            </svg>
+          </div>
+          <h4>UI / UX Design</h4>
+          <p>Designing clean, accessible interfaces with attention to interaction detail.</p>
+        </article>
+
+        <article class="feature-card">
+          <div class="icon-wrap">
+            <svg viewBox="0 0 24 24" class="feature-icon" aria-hidden="true">
+              <path d="M12 2a10 10 0 100 20 10 10 0 000-20zm2 14h-4v-2h4v2zm0-4h-4V6h4v6z"></path>
+            </svg>
+          </div>
+          <h4>AI Integration</h4>
+          <p>Exploring ML and automation to add smart features to apps and workflows.</p>
+        </article>
+
+        <!-- Row 2 -->
+        <article class="feature-card small">
+          <div class="icon-wrap">
+            <svg viewBox="0 0 24 24" class="feature-icon" aria-hidden="true">
+              <path d="M12 7a5 5 0 100 10 5 5 0 000-10z"></path>
+            </svg>
+          </div>
+          <h4>Passion</h4>
+          <p>Love for crafting delightful user experiences and elegant code.</p>
+        </article>
+
+        <article class="feature-card small">
+          <div class="icon-wrap">
+            <svg viewBox="0 0 24 24" class="feature-icon" aria-hidden="true">
+              <path d="M19 13H5v-2h14v2z"></path>
+            </svg>
+          </div>
+          <h4>Mission</h4>
+          <p>Bridge design and technology to build useful, beautiful products.</p>
+        </article>
+
+        <article class="feature-card small">
+          <div class="icon-wrap">
+            <svg viewBox="0 0 24 24" class="feature-icon" aria-hidden="true">
+              <path d="M12 4l1.8 3.6L18 9l-3.6 1.8L12 14l-1.8-3.2L6 9l3.6-1.4L12 4z"></path>
+            </svg>
+          </div>
+          <h4>Innovation</h4>
+          <p>Pushing new ideas and experimenting with AI-driven UX patterns.</p>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== TECHNICAL SKILLS ===== -->
+<section id="skills" class="skills-section">
+  <div class="container">
+    <header class="section-head">
+      <h2 class="section-title">TECHNICAL SKILLS</h2>
+      <div class="section-underline"></div>
+    </header>
+
+    <!-- Top row: three big cards -->
+    <div class="skills-top-grid">
+      <!-- Programming Languages (BLUE) -->
+<div class="skill-panel" data-accent="blue">
+  <div class="panel-icon"> <i class="fa-solid fa-code"></i> </div>
+  <h3 class="panel-title">Programming Languages</h3>
+
+  <div class="skill-row">
+    <div class="skill-name">C++</div>
+    <div class="skill-value">75%</div>
+    <div class="skill-bar"><div class="skill-fill" style="width:75%"></div></div>
+  </div>
+
+  <div class="skill-row">
+    <div class="skill-name">Java</div>
+    <div class="skill-value">80%</div>
+    <div class="skill-bar"><div class="skill-fill" style="width:80%"></div></div>
+  </div>
+
+  <div class="skill-row">
+    <div class="skill-name">C#</div>
+    <div class="skill-value">75%</div>
+    <div class="skill-bar"><div class="skill-fill" style="width:75%"></div></div>
+  </div>
+
+  <div class="skill-row">
+    <div class="skill-name">PHP</div>
+    <div class="skill-value">70%</div>
+    <div class="skill-bar"><div class="skill-fill" style="width:70%"></div></div>
+  </div>
+
+  <div class="skill-row">
+    <div class="skill-name">JavaScript</div>
+    <div class="skill-value">75%</div>
+    <div class="skill-bar"><div class="skill-fill" style="width:75%"></div></div>
+  </div>
+
+  <div class="skill-row">
+    <div class="skill-name">HTML/CSS</div>
+    <div class="skill-value">90%</div>
+    <div class="skill-bar"><div class="skill-fill" style="width:90%"></div></div>
+  </div>
+
+  <div class="skill-row">
+    <div class="skill-name">R</div>
+    <div class="skill-value">60%</div>
+    <div class="skill-bar"><div class="skill-fill" style="width:60%"></div></div>
+  </div>
+</div>
+
+
+      <!-- Frameworks & Tools (PINK) -->
+      <div class="skill-panel" data-accent="pink">
+        <div class="panel-icon"> <i class="fa-solid fa-layer-group"></i> </div>
+        <h3 class="panel-title">Frameworks &amp; Tools</h3>
+
+        <div class="skill-row">
+          <div class="skill-name">.NET</div>
+          <div class="skill-value">75%</div>
+          <div class="skill-bar"><div class="skill-fill" style="width:75%"></div></div>
+        </div>
+
+        <div class="skill-row">
+          <div class="skill-name">React</div>
+          <div class="skill-value">65%</div>
+          <div class="skill-bar"><div class="skill-fill" style="width:65%"></div></div>
+        </div>
+
+        <div class="skill-row">
+          <div class="skill-name">Android Studio</div>
+          <div class="skill-value">70%</div>
+          <div class="skill-bar"><div class="skill-fill" style="width:70%"></div></div>
+        </div>
+
+        <div class="skill-row">
+          <div class="skill-name">Firebase</div>
+          <div class="skill-value">65%</div>
+          <div class="skill-bar"><div class="skill-fill" style="width:65%"></div></div>
+        </div>
+
+        <div class="skill-row">
+          <div class="skill-name">R Studio</div>
+          <div class="skill-value">70%</div>
+          <div class="skill-bar"><div class="skill-fill" style="width:70%"></div></div>
+        </div>
+      </div>
+
+      <!-- Databases & Backend (PURPLE) - JWT/File I/O removed -->
+      <div class="skill-panel" data-accent="purple">
+        <div class="panel-icon"> <i class="fa-solid fa-database"></i> </div>
+        <h3 class="panel-title">Databases &amp; Backend</h3>
+
+        <div class="skill-row">
+          <div class="skill-name">SQL / MySQL</div>
+          <div class="skill-value">80%</div>
+          <div class="skill-bar"><div class="skill-fill" style="width:80%"></div></div>
+        </div>
+
+        <div class="skill-row">
+          <div class="skill-name">PHPMyAdmin</div>
+          <div class="skill-value">75%</div>
+          <div class="skill-bar"><div class="skill-fill" style="width:75%"></div></div>
+        </div>
+
+        <div class="skill-row">
+          <div class="skill-name">REST APIs</div>
+          <div class="skill-value">70%</div>
+          <div class="skill-bar"><div class="skill-fill" style="width:70%"></div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Lower row: three small skill lists -->
+    <div class="skills-bottom-grid">
+      <div class="mini-card" data-accent="blue">
+        <h4>DATA &amp; ANALYTICS</h4>
+        <ul>
+          <li>Business Analytics</li>
+          <li>Database Design</li>
+          <li>Data Structures &amp; Algorithms</li>
+          <li>Excel Dashboards</li>
+        </ul>
+      </div>
+
+      <div class="mini-card" data-accent="pink">
+        <h4>COLLABORATION &amp; WORKFLOW</h4>
+        <ul>
+          <li>GitHub</li>
+          <li>Project Management</li>
+          <li>Agile Methodologies</li>
+        </ul>
+      </div>
+
+      <div class="mini-card" data-accent="purple">
+        <h4>EMERGING TECHNOLOGIES</h4>
+        <ul>
+          <li>Generative AI</li>
+          <li>Service-Oriented Computing</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ===== PROFESSIONAL STATS ===== -->
+<section id="stats" class="stats-section">
+  <div class="container">
+    <header class="section-head">
+      <h2 class="section-title">PROFESSIONAL STATS</h2>
+      <div class="section-underline"></div>
+      <p class="section-sub">Quantifying my journey in software engineering and technology innovation.</p>
+    </header>
+
+    <!-- Top summary cards -->
+    <div class="stats-grid">
+      <div class="stat-card">
+        <div class="stat-icon"><i class="fa-solid fa-code"></i></div>
+        <div class="stat-number" data-target="8">0</div>
+        <div class="stat-label">Projects Completed</div>
+      </div>
+
+      <div class="stat-card stat-highlight">
+        <div class="stat-icon"><i class="fa-solid fa-database"></i></div>
+        <div class="stat-number" data-target="15">0</div>
+        <div class="stat-label">Technologies Mastered</div>
+      </div>
+
+      <div class="stat-card">
+        <div class="stat-icon"><i class="fa-solid fa-certificate"></i></div>
+        <div class="stat-number" data-target="2">0</div>
+        <div class="stat-label">Professional Certifications</div>
+      </div>
+
+      <div class="stat-card">
+        <div class="stat-icon"><i class="fa-solid fa-briefcase"></i></div>
+        <div class="stat-number" data-target="2">0</div>
+        <div class="stat-label">Years of Experience</div>
+      </div>
+    </div>
+
+    <!-- Lower feature cards -->
+    <div class="skills-grid">
+      <article class="skill-card">
+        <div class="skill-icon"><i class="fa-solid fa-mobile-screen-button"></i></div>
+        <div class="skill-body">
+          <h4>Mobile Development</h4>
+          <p class="skill-sub"><strong>1+</strong> Mobile Project</p>
+          <p class="skill-desc">Expertise in native Android development using Java and modern frameworks, with Firebase integration and responsive UI design.</p>
+        </div>
+      </article>
+
+      <article class="skill-card">
+        <div class="skill-icon"><i class="fa-solid fa-globe"></i></div>
+        <div class="skill-body">
+          <h4>Web Development</h4>
+          <p class="skill-sub"><strong>5+</strong> Web Projects</p>
+          <p class="skill-desc">Full-stack web development using React, PHP, MySQL and modern CSS frameworks. Focus on responsive UX and performance.</p>
+        </div>
+      </article>
+
+      <article class="skill-card">
+        <div class="skill-icon"><i class="fa-solid fa-chart-column"></i></div>
+        <div class="skill-body">
+          <h4>Data Analytics</h4>
+          <p class="skill-sub"><strong>2+</strong> Data Projects</p>
+          <p class="skill-desc">Business analytics and visualization using R, Excel and statistical methods. Experience with policy analysis and EDA.</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+
+
+    <!-- ===== EDUCATION SECTION ===== -->
+<section id="education" class="education-section">
+  <div class="container">
+    <header class="section-head">
+      <h2 class="section-title">EDUCATION</h2>
+      <div class="section-underline"></div>
+    </header>
+
+    <div class="education-list">
+      <!-- Card 1 -->
+      <article class="edu-card">
+        <div class="edu-left">
+          <div class="edu-logo">
+            <!-- small school icon (replace with image if you have one) -->
+            <svg viewBox="0 0 24 24" width="36" height="36" fill="none"><path d="M12 3 L2 9l10 6 10-6-10-6z" stroke="currentColor" stroke-width="1.2"/></svg>
+          </div>
+        </div>
+        <div class="edu-right">
+          <h3 class="edu-title">Higher Diploma in Computing and Software Engineering</h3>
+          <div class="edu-meta">
+            <span class="edu-institution">Cardiff Metropolitan University (via ICBT Campus)</span>
+            <span class="edu-dot">•</span>
+            <span class="edu-date">Completed: Aug 28, 2025</span>
+            <span class="edu-dot">•</span>
+            <span class="edu-location">Kandana, Sri Lanka</span>
+          </div>
+          <p class="edu-desc">
+            Pursued a comprehensive diploma program focused on software development, data structures, algorithms, web technologies, mobile application development, and software engineering principles. Gained hands-on experience through practical projects and industry-relevant coursework.
+          </p>
+        </div>
+      </article>
+
+   
+
+
+      <!-- Card 3: G.C.E. A/L & O/L (from your earlier records — keep if you'd like) -->
+      <article class="edu-card">
+        <div class="edu-left">
+          <div class="edu-logo">
+            <svg viewBox="0 0 24 24" width="36" height="36" fill="none"><circle cx="12" cy="8" r="3" stroke="currentColor" stroke-width="1.2"/></svg>
+          </div>
+        </div>
+        <div class="edu-right">
+          <h3 class="edu-title">G.C.E. Advanced Level (A/L) & Ordinary Level (O/L)</h3>
+          <div class="edu-meta">
+            <span class="edu-institution">De mazenod college/ St. Sebastian school</span>
+            <span class="edu-dot">•</span>
+            <span class="edu-date">Mar 2019 – Jan 2023</span>
+            <span class="edu-dot">•</span>
+            <span class="edu-location">Kandana, Gampaha District, Sri Lanka</span>
+          </div>
+          <p class="edu-desc">
+            Completed G.C.E. Advanced Level (Science stream) and Ordinary Level providing strong foundation in mathematics, physics and chemistry. 
+          </p>
+        </div>
+      </article>
+
+      <!-- Card 4: Primary & Secondary -->
+      <article class="edu-card">
+        <div class="edu-left">
+          <div class="edu-logo">
+            <svg viewBox="0 0 24 24" width="36" height="36" fill="none"><path d="M12 2l4 4-4 2-4-2 4-4z" stroke="currentColor" stroke-width="1.2"/></svg>
+          </div>
+        </div>
+        <div class="edu-right">
+          <h3 class="edu-title">Primary & Secondary Education</h3>
+          <div class="edu-meta">
+            <span class="edu-institution">St. Sebastian School</span>
+            <span class="edu-dot">•</span>
+            <span class="edu-date">2009 – 2019</span>
+            <span class="edu-dot">•</span>
+            <span class="edu-location">Kandana, Gampaha District, Sri Lanka</span>
+          </div>
+          <p class="edu-desc">
+            Completed primary and secondary education with strong academic performance and participation in extracurricular activities. 
+          </p>
+        </div>
+      </article>
+
+      <!-- Academic Highlights box -->
+      <article class="edu-card highlights">
+        <div class="high-left">
+          <div class="icon-wrap small">
+            <svg viewBox="0 0 24 24" class="feature-icon" width="18" height="18" aria-hidden="true"><path d="M12 2l3 7h7l-5.5 4 2 7L12 16l-6.5 4 2-7L2 9h7z"></path></svg>
+          </div>
+        </div>
+        <div class="high-right">
+          <h3 class="edu-title">Academic Highlights</h3>
+          <ul class="high-list">
+            <li>Strong academic performance with focus on software engineering principles</li>
+            
+          </ul>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+
+  <!-- ===== CERTIFICATION SECTION ===== -->
+<section id="certifications" class="cert-section">
+  <div class="container">
+    <header class="section-head">
+      <h2 class="section-title">CERTIFICATIONS</h2>
+      <div class="section-underline"></div>
+    </header>
+
+    <div class="cert-grid">
+      <!-- Certificate Card -->
+      <article class="cert-card">
+        <div class="cert-icon">
+          <svg viewBox="0 0 24 24" class="feature-icon" width="28" height="28" fill="none">
+            <path d="M12 2l3 7h7l-5.5 4 2 7L12 16l-6.5 4 2-7L2 9h7z" stroke="currentColor" stroke-width="1.2"/>
+          </svg>
+        </div>
+        <div class="cert-content">
+          <h3 class="cert-title">Python for Beginners</h3>
+          <p class="cert-issuer">University of Moratuwa – Online Certification</p>
+          <a href="assets/certificates/Python_for_Beginners_E-Certificate.pdf" target="_blank" class="view-cert-btn">
+            View Certificate
+          </a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+
+   <!-- ===== PROJECTS SECTION ===== -->
+<section id="projects" class="projects-section">
+  <div class="container">
+
+    <header class="section-head">
+      <h2 class="section-title">PROJECTS</h2>
+      <div class="section-underline"></div>
+    </header>
+
+    <!-- Project 1: FitZone (image left) -->
+    <article class="project-card">
+      <div class="project-media">
+        <img src="assets/images/fitzone.png" alt="FitZone screenshots">
+        <div class="date-pill">Jul 2024 – Nov 2024</div>
+      </div>
+
+      <div class="project-desc">
+        <h3 class="project-name">FitZone Fitness</h3>
+        <p class="project-text">
+          Developed a dynamic, responsive web platform for a fitness center in Kurunegala.
+          Users can explore programs, register memberships, and submit inquiries. Dashboards for customers,
+          trainers and admins manage bookings, schedules and memberships.
+        </p>
+
+        <div class="project-meta">
+          <div class="tech-list">
+            <span class="tech-chip"><i class="fa-brands fa-html5"></i> HTML</span>
+<span class="tech-chip"><i class="fa-brands fa-css3-alt"></i> CSS</span>
+<span class="tech-chip"><i class="fa-brands fa-php"></i> PHP</span>
+<span class="tech-chip"><i class='bx bxl-mysql'></i> MySQL</span>
+
+          </div>
+
+          <div class="project-actions">
+            <a class="btn code-btn" href="https://github.com/uma1234785/FitZone-Fitness" target="_blank">View Code</a>
+            
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- Project 2: LuxeVista (alternate layout: image right) -->
+    <article class="project-card alt">
+      <div class="project-media">
+        <img src="assets/images/luxevista.png" alt="LuxeVista mobile mockups">
+        <div class="date-pill">Jul 2024 – Nov 2024</div>
+      </div>
+
+      <div class="project-desc">
+        <h3 class="project-name">LuxeVista Resort</h3>
+        <p class="project-text">
+          Native Android app for a luxury beachfront resort. Guests can book rooms, reserve in-house services,
+          and manage profiles. Implemented secure authentication and realtime data handling with Firebase.
+        </p>
+
+        <div class="project-meta">
+          <div class="tech-list">
+             <span class="tech-chip"><i class="fa-brands fa-kickstarter-k"></i> Kotlin</span>
+  <span class="tech-chip"><i class="fa-brands fa-android"></i> Android Studio</span>
+  <span class="tech-chip"><i class="fa-solid fa-fire"></i> Firebase</span>
+          </div>
+
+          <div class="project-actions">
+            <a class="btn code-btn" href="https://github.com/uma1234785/Luxevista-resort-app" target="_blank">View Code</a>
+            
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- Project 3: GadgetHub (image left) -->
+    <article class="project-card">
+      <div class="project-media">
+        <img src="assets/images/gadgethub.png" alt="GadgetHub screenshots">
+        <div class="date-pill">Feb 2025 – April 2025</div>
+      </div>
+
+      <div class="project-desc">
+        <h3 class="project-name">Gadget Hub</h3>
+        <p class="project-text">
+          Dropshipping e-commerce platform connecting customers with multiple distributors. Implemented role-based access
+          for Admin/Customer/Distributor and modular backend services for product & order management.
+        </p>
+
+       <div class="project-meta">
+  <div class="tech-list">
+    <span class="tech-chip"><i class="fa-solid fa-code"></i> C#</span>
+    <span class="tech-chip"><i class="fa-solid fa-circle-nodes"></i> .NET</span>
+    <span class="tech-chip"><i class="fa-solid fa-database"></i> SQL Server</span>
+  </div>
+
+  <!-- keep your actions here -->
+  <div class="project-actions">
+    <a class="btn code-btn" href="https://github.com/uma1234785/Gadget-Hub" target="_blank">View Code</a>
+    
+  </div>
+</div>  
+        </div>
+      </div>
+    </article>
+<!-- Project 4: Business Analytics for Sri Lanka Transport Ministry -->
+<article class="project-card">
+  <div class="project-media">
+    <img src="assets/images/ba.png" alt="Business Analytics Project">
+    <div class="date-pill">July 2025 – August 2025</div>
+  </div>
+
+  <div class="project-desc">
+    <h3 class="project-name">Business Analytics for Sri Lanka Transport Ministry</h3>
+    <p class="project-text"><strong>Data Analysis Project</strong></p>
+
+    <p class="project-text">
+      Data analysis on automotive datasets to derive policy insights using statistical techniques and R programming.
+    </p>
+
+    <div class="project-meta">
+      <div class="project-features">
+        <strong>Key Features:</strong>
+        <ul>
+          <li>Statistical analysis: Descriptive Statistics, Correlation Analysis, Hypothesis Testing</li>
+          <li>Regression Modeling and CRISP-DM methodology</li>
+          <li>Exploratory Data Analysis (EDA) for structured decision-making</li>
+        </ul>
+      </div>
+
+      <div class="tech-list">
+        <span class="tech-chip"><i class="fa-brands fa-r-project"></i> R</span>
+        <span class="tech-chip"><i class="fa-solid fa-laptop-code"></i> RStudio</span>
+        <span class="tech-chip"><i class="fa-solid fa-table-cells-large"></i> Excel</span>
+        <span class="tech-chip"><i class="fa-solid fa-chart-line"></i> Statistics</span>
+      </div>
+
+      <div class="project-actions">
+        <a class="btn code-btn" href="https://github.com/uma1234785/BA" target="_blank">View Code</a>
+      </div>
+    </div>
+  </div>
+</article>
+
+<!-- Project: MUJAX Super Market – Network Solution Design -->
+<article class="project-card">
+  <div class="project-media">
+    <img src="assets/images/cisco.png" alt="MUJAX Super Market network diagram">
+    <div class="date-pill">Sep 2024 – Nov 2024</div>
+  </div>
+
+  <div class="project-desc">
+    <h3 class="project-name">MUJAX Super Market – Network Solution Design</h3>
+
+    <p class="project-text">
+      Scalable Extended Star Topology network design for multi-branch retail operations with comprehensive security solutions.
+    </p>
+
+    <div class="project-meta">
+      <div class="project-features">
+        <strong>Key Features:</strong>
+        <ul>
+          <li>Scalable Extended Star Topology for multi-branch retail operations</li>
+          <li>IP addressing scheme (Class C with subnetting) for departmental segmentation</li>
+          <li>Network device integration (switches, routers, WAPs, servers, POS systems)</li>
+        </ul>
+      </div>
+
+      <div class="tech-list" aria-hidden="false">
+        <span class="tech-chip"><i class="fa-solid fa-sitemap" aria-hidden="true"></i> Network Design</span>
+        <span class="tech-chip"><i class="fa-solid fa-cubes" aria-hidden="true"></i> Cisco</span>
+        <span class="tech-chip"><i class="fa-solid fa-shield-halved" aria-hidden="true"></i> Security</span>
+      </div>
+
+     
+    </div>
+  </div>
+</article>
+
+
+
+
+  </div>
+</section>
+
+    <!-- ===== CONTACT SECTION ===== -->
+<section id="contact" class="contact-section">
+  <div class="container contact-grid">
+    <!-- Left: Info -->
+    <div class="contact-info">
+      <h2 class="contact-title">Contact Information</h2>
+      <p class="contact-intro">
+        Feel free to reach out through any of the following channels — I’ll respond as soon as possible.
+      </p>
+
+      <div class="info-item">
+        <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+        <div>
+          <h4>Email</h4>
+          <p><a href="mailto:nethmiumayanga3@gmail.com">nethmiumayanga3@gmail.com</a></p>
+        </div>
+      </div>
+
+      <div class="info-item">
+        <div class="icon"><i class="fa-solid fa-phone"></i></div>
+        <div>
+          <h4>Phone</h4>
+          <p>+94 77 234 2697</p>
+        </div>
+      </div>
+
+      <div class="info-item">
+        <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+        <div>
+          <h4>Location</h4>
+          <p>Kandana, Sri Lanka</p>
+        </div>
+      </div>
+
+      <div class="social-links">
+        <a href="https://linkedin.com/in/nethmi-umayanga-41b218312" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com/" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="mailto:nethmiumayanga3@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+    </div>
+
+    <!-- Right: Form -->
+    <div class="contact-form">
+      <h3>Send Me a Message</h3>
+      <form id="contactForm" action="https://formspree.io/f/mqagzjpg" method="POST">
+        <div class="form-group">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" name="name" placeholder="John Doe" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Your Email</label>
+          <input type="email" id="email" name="email" placeholder="john@example.com" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Your Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+        </div>
+        <button type="submit" class="send-btn">
+          <i class="fa-solid fa-paper-plane"></i> Send Message
+        </button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- Font Awesome -->
+<script src="https://kit.fontawesome.com/a2d9a2d5e0.js" crossorigin="anonymous"></script>
+
+
+ <!-- ===== FOOTER ===== -->
+<footer class="site-footer-modern">
+  <div class="footer-inner container">
+    <!-- Left: profile -->
+    <div class="footer-col footer-profile">
+      <div class="avatar">NU</div>
+      <div class="profile-text">
+        <div class="profile-name">Nethmi Umayanga</div>
+        <div class="profile-role">Software Engineering Student</div>
+        <p class="profile-bio">
+          Creating innovative digital solutions that blend beautiful design with practical, maintainable code. 
+          Focused on full-stack development and AI integration.
+        </p>
+
+        <div class="footer-social">
+          <a href="https://github.com/" target="_blank" aria-label="GitHub" class="social-btn gh"> 
+            <!-- simple GitHub icon (svg) -->
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M12 .5C5.73.5.8 5.43.8 11.71c0 4.83 3.14 8.92 7.5 10.36.55.1.75-.24.75-.53v-1.86c-3.05.66-3.7-1.46-3.7-1.46-.5-1.27-1.2-1.61-1.2-1.61-.98-.67.08-.66.08-.66 1.08.08 1.65 1.13 1.65 1.13.96 1.64 2.52 1.17 3.14.9.1-.7.38-1.17.7-1.44-2.44-.28-5-1.22-5-5.42 0-1.2.42-2.18 1.12-2.95-.12-.27-.49-1.37.1-2.86 0 0 .92-.29 3.02 1.12a10.5 10.5 0 0 1 5.5 0c2.1-1.41 3.02-1.12 3.02-1.12.59 1.49.22 2.59.1 2.86.7.77 1.12 1.75 1.12 2.95 0 4.2-2.56 5.14-5 5.42.39.33.74.98.74 1.99v2.95c0 .29.2.64.76.53 4.36-1.45 7.5-5.53 7.5-10.36C23.2 5.43 18.27.5 12 .5z"/></svg>
+          </a>
+
+          <a href="https://www.linkedin.com/in/nethmi-umayanga-41b218312" target="_blank" aria-label="LinkedIn" class="social-btn ln">
+            <!-- LinkedIn svg -->
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M4.98 3.5C3.88 3.5 3 4.39 3 5.5s.88 2 1.98 2C6.1 7.5 7 6.61 7 5.5 7 4.39 6.1 3.5 4.98 3.5zM3.5 8.98h3V21h-3zM9.5 8.98h2.86v1.64h.04c.4-.75 1.4-1.63 2.88-1.63 3.08 0 3.65 2.03 3.65 4.67V21h-3v-5.15c0-1.23-.02-2.81-1.71-2.81-1.71 0-1.97 1.34-1.97 2.72V21h-3z"/></svg>
+          </a>
+
+          <a href="mailto:nethmiumayanga3@gmail.com" aria-label="Email" class="social-btn mail">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5L4 8V6l8 5 8-5v2z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Middle: Get in touch (contact quick list) -->
+    <div class="footer-col footer-contact">
+      <h4 class="col-title">Get In Touch</h4>
+
+      <div class="contact-line">
+        <div class="mini-icon">✉</div>
+        <div><div class="mini-label">Email</div><a href="mailto:nethmiumayanga3@gmail.com" class="mini-value">nethmiumayanga3@gmail.com</a></div>
+      </div>
+
+      <div class="contact-line">
+        <div class="mini-icon">📞</div>
+        <div><div class="mini-label">Phone</div><div class="mini-value">+94 77 234 2697</div></div>
+      </div>
+
+      <div class="contact-line">
+        <div class="mini-icon">📍</div>
+        <div><div class="mini-label">Location</div><div class="mini-value">Kandana, Sri Lanka</div></div>
+      </div>
+    </div>
+
+    <!-- Right: Quick links -->
+    <div class="footer-col footer-links">
+      <h4 class="col-title">Quick Links</h4>
+      <ul class="quick-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="container">
+      <div class="copy">© <span id="year"></span> Nethmi Umayanga. All rights reserved.</div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // update year
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+
+  <script src="js/script.js"></script>
+</body>
+</html>
